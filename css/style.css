@@ -1,0 +1,60 @@
+/*******************************************************
+This is my very first stylesheet. The main rules I found
+enjoyable were the "classes" for the div tag. Every other rule
+was me just trying to figure out how to use css for formatting.
+The individual rules for tags text, headers, and tables are ones
+I'm not particularly confident in cleanliness.
+*******************************************************/
+
+body {
+  /*background-image: url("images/Deep Ocean Background.jpg");*/
+  background-color: lightblue;
+  font-family: monospace;
+}
+
+.myFirstDiv {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: auto;
+}
+
+.albumDiv{
+  float: left;
+  width: 300px;
+  padding: 50px;
+  margin: 30px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("fonts/Jet Set.ttf");
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: myFirstFont;
+  text-align: center;
+}
+
+h2 {
+  font-family: myFirstFont;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+table, th, td {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
